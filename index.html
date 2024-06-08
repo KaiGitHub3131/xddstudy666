@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./libs/scrollReveal/scrollreveal.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="./libs/glide/glide.core.min.css" />
+    <link rel="stylesheet" href="./libs/glide/glide.theme.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <img />
+    <title>叮当学习网</title>
+  </head>
+  <body class="main">
+    <header>
+      <div class="logo">叮当学习网</div>
+      <nav>
+        <a href="#home">首页</a>
+        <a href="#about-us">关于博主</a>
+        <a href="#showcases">作品展示</a>
+        <a href="#service">学习方法</a>
+        <a href="#team-intro">案例展示</a>
+        <a href="#company-activities">课程目录</a>
+<!--         <i class="fas fa-search"></i> -->
+      </nav>
+      <div class="burger">
+        <div class="burger-line1"></div>
+        <div class="burger-line2"></div>
+        <div class="burger-line3"></div>
+      </div>
+    </header>
+
+    <div id="home" class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <!-- 顶部轮播图 -->
+        <div class="glide__slides">
+          <!-- img1 -->
+          <div class="glide__slide">
+            <div class="slide-caption">
+              <h1>嗨，我是叮当学习网管理员·小叮当</h1>
+              <h3>欢迎来到我的网站，学习大鹏课程！</h3>
+              <button class="explor-btn">开始学习</button>
+            </div>
+            <div class="backdrop"></div>
+            <img src="./images/people-in-couch-1024248.jpg" alt="" />
+          </div>
+          <!-- img2 -->
+          <div class="glide__slide">
+            <div class="slide-caption left">
+              <h1>越努力越幸运！</h1>
+              <h3>
+               聪明在于勤奋，天才在于积累。 —— 华罗庚
+              </h3>
+              <button class="explor-btn">扬帆起航</button>
+            </div>
+            <div class="backdrop"></div>
+            <video src="./videos/working-man.mp4" muted autoplay loop></video>
+          </div>
+        </div>
+      </div>
+      <!-- 轮播图箭头 -->
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+          <
+        </button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+          >
+        </button>
+      </div>
+      <!-- 轮播图圆点 -->
+      <div class="glide__bullets" data-glide-el="controls[nav]">
+        <button class="glide__bullet" data-glide-dir="0"></button>
+        <button class="glide__bullet" data-glide-dir="1"></button>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <!-- 关于博主 -->
+      <section id="about-us" class="about-us">
+        <h2 class="title1">关于博主</h2>
+        <p class="intro">
+         大家好，我是设计师小叮当，一个对设计和开发充满热爱与探索欲的博主
+        </p>
+
+        <div class="features">
+          <div class="feature">
+            <i class="fas fa-lightbulb"></i>
+            <h4 class="feature-title">品牌设计</h4>
+            <p class="feature-content">
+              融合了创新的理念与经典的元素，创造出既前卫又不失底蕴的风格
+            </p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-chart-line"></i>
+            <h4 class="feature-title">营销设计</h4>
+            <p class="feature-content">
+              每一个创意都是对生活的热情礼赞，每一处设计都是对美好的极致追求
+            </p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-shopping-cart"></i>
+            <h4 class="feature-title">网站设计</h4>
+            <p class="feature-content">
+              每一处细节都经过精心雕琢，只为给你最卓越的体验
+            </p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-desktop"></i>
+            <h4 class="feature-title">企业设计</h4>
+            <p class="feature-content">
+             每一个设计理念都源自对未来的洞察，都是对卓越的不懈追求
+            </p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-tachometer-alt"></i>
+            <h4 class="feature-title">网站优化</h4>
+            <p class="feature-content">
+              每一次交互都如行云流水般自然流畅，带给用户极致的舒适感受
+            </p>
+          </div>
+
+          <div class="feature">
+            <i class="fas fa-lightbulb"></i>
+            <h4 class="feature-title">独立设计</h4>
+            <p class="feature-content">
+              每一个独立设计作品都是设计师心灵的映照，是对美好未来的憧憬与期许
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- 作品展示 -->
+      <section id="showcases" class="showcases section-bg">
+        <h2 class="title1">作品展示</h2>
+        <div class="filter-btns">
+          <button class="filter-btn active" data-filter="*">全部</button>
+          <button class="filter-btn" data-filter=".web">WEB</button>
+          <button class="filter-btn" data-filter=".mobile">移动</button>
+          <button class="filter-btn" data-filter=".science">科研</button>
+        </div>
+        <div class="cases">
+          <div class="case-item scence">
+            <img
+              src="./images/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg"
+              alt=""
+            />
+          </div>
+          <div class="case-item web science">
+            <img
+              src="./images/apple-apple-device-design-desk-285814.jpg"
+              alt=""
+            />
+          </div>
+          <div class="case-item mobile">
+            <img src="./images/apple-laptop-notebook-office-39284.jpg" alt="" />
+          </div>
+          <div class="case-item web science">
+            <img src="./images/person-holding-a-smartphone-892757.jpg" alt="" />
+          </div>
+          <div class="case-item mobile">
+            <img
+              src="./images/person-using-black-and-white-smartphone-and-holding-blue-230544.jpg"
+              alt=""
+            />
+          </div>
+          <div class="case-item web mobile">
+            <img src="./images/blur-close-up-code-computer-546819.jpg" alt="" />
+          </div>
+          <div class="case-item science">
+            <img
+              src="./images/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg"
+              alt=""
+            />
+          </div>
+          <div class="case-item web">
+            <img src="./images/photo-of-imac-near-macbook-1029757.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- 学习方法 -->
+      <section id="service" class="service">
+        <h2 class="title1">学习方法</h2>
+        <p class="intro">
+          在知识海洋中航行，清晰的学习思路如同明亮的灯塔，指引着我们前行的方向
+        </p>
+        <d class="services">
+          <div class="service-item">
+            <i class="fas fa-comments"></i>
+            <p class="service-title">制定计划</p>
+            <p class="service-content">
+             制定计划：合理规划学习时间和任务，让学习更有条理
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-comments"></i>
+            <p class="service-title">感官并用</p>
+            <p class="service-content">
+              结合视觉、听觉、触觉等多种感官来加深对知识的理解和记忆
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-comments"></i>
+            <p class="service-title">实践运用</p>
+            <p class="service-content">
+              通过实际操作和应用，将理论知识转化为实际能力
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-comments"></i>
+            <p class="service-title">合作学习</p>
+            <p class="service-content">
+              与同学或伙伴一起讨论、交流，互相启发和促进
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-comments"></i>
+            <p class="service-title">自主探究</p>
+            <p class="service-content">
+             培养独立思考和探索精神，深入挖掘知识的内涵
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-comments"></i>
+            <p class="service-title">及时复习</p>
+            <p class="service-content">
+            定期回顾已学知识，巩固记忆，防止遗忘
+            </p>
+          </div>
+        </d>
+      </section>
+      <!-- 案例展示 -->
+      <section id="team-intro" class="team-intro section-bg">
+        <h2 class="title1">案例展示</h2>
+        <div class="team-members">
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/54041_14017.png" alt="" />
+            </div>
+            <h4 class="name">个人写真</h4>
+            <p class="position">在时光的长河中，捕捉属于自己的璀璨瞬间</p>
+            <ul class="social-links">
+              <li>
+                <a href=""><i class="fab fa-weixin"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-weibo"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/393576_990906.png" alt="" />
+            </div>
+            <h4 class="name">少女系写真</h4>
+            <p class="position">在梦幻的光晕中，少女的身影如精灵般轻盈舞动</p>
+            <ul class="social-links">
+              <li>
+                <a href=""><i class="fab fa-weixin"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-weibo"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/249856_310785.png" alt="" />
+            </div>
+            <h4 class="name">日系清新写真</h4>
+            <p class="position">在那日系的淡雅时光里，清新如诗的画面悄然展开</p>
+            <ul class="social-links">
+              <li>
+                <a href=""><i class="fab fa-weixin"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-weibo"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="team-member">
+            <div class="profile-image">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/553863_942735.jpg" alt="" />
+            </div>
+            <h4 class="name">人像精修写真</h4>
+            <p class="position">每一幅人像精修作品，都是一次艺术的升华</p>
+            <ul class="social-links">
+              <li>
+                <a href=""><i class="fab fa-weixin"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-weibo"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- 动效数据 -->
+      <section class="data-section">
+        <div class="data-piece">
+          <i class="fas fa-code"></i>
+          <div class="num">1</div>
+          <div class="data-desc">多听课</div>
+        </div>
+        <div class="data-piece">
+          <i class="fas fa-code"></i>
+          <div class="num">2</div>
+          <div class="data-desc">多练习</div>
+        </div>
+        <div class="data-piece">
+          <i class="fas fa-code"></i>
+          <div class="num">3</div>
+          <div class="data-desc">多请教</div>
+        </div>
+        <div class="data-piece">
+          <i class="fas fa-code"></i>
+          <div class="num">4</div>
+          <div class="data-desc">多思考</div>
+        </div>
+      </section>
+      <!-- 课程目录 -->
+      <section id="company-activities" class="company-activities">
+        <h2 class="title1">课程目录</h2>
+        <p class="intro">欢迎开启本课程的精彩之旅，本课程目录涵盖了丰富而全面的内容</p>
+        <div class="activities">
+          <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/22656_759963.jpeg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-publish">
+                <i class="far fa-calendar"></i>2020年4月6号
+              </p>
+              <p class="comments"><i class="far fa-comments"></i>33</p>
+            </div>
+            <h2 class="act-title">PS入门到精通基础课</h2>
+            <article>
+              资深设计师授课，Photoshop主要处理以像素所构成的数字图像。使用其众多的编修与绘图工具，可以有效地进行图片编辑和创造工作。PS 有很多功能，在图像、图形、文字、视频、出版等各方面都有涉及。图形创作软件是按照自己的构思创意，使用矢量图形等来设计图形，结合PS常用的实战综合案例讲练，使学员掌握抠图、修图、绘图、调色、文字编排、特效、合成方法，精通色彩搭配与校正、构图设计理论、图像批处理、手绘动画创意、绘画与装饰、电影海报制作、排版设计工艺、综合项目设计。  
+            </article>
+            <button class="read-more-btn"><a href="https://app.v.tencent.com/cooperation/review/1b7429ef-03c6-4276-ab5d-45f3a32aa3d4/665ef9512200610001573743/3ZFlYnHU?classId=1814813&ownerType=PERSON" style='text-decoration:none;color:#fff ;' target="_blank">课程</a></button>
+            <button class="read-more-btn"><a href="https://pan.baidu.com/s/1pJ1IFSvO92Eue0vV1eghdw?pwd=8888" style='text-decoration:none;color:#fff ;' target="_blank">素材</a></button>
+          
+          </div>
+          <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/349379_218505.jpeg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-publish">
+                <i class="far fa-calendar"></i>2020年4月6号
+              </p>
+              <p class="comments"><i class="far fa-comments"></i>33</p>
+            </div>
+            <h2 class="act-title">PS从入门到精通提升课 </h2>
+            <article>
+              资深设计师授课，Photoshop主要处理以像素所构成的数字图像。使用其众多的编修与绘图工具，可以有效地进行图片编辑和创造工作。PS 有很多功能，在图像、图形、文字、视频、出版等各方面都有涉及。图形创作软件是按照自己的构思创意，使用矢量图形等来设计图形，结合PS常用的实战综合案例讲练，使学员掌握抠图、修图、绘图、调色、文字编排、特效、合成方法，精通色彩搭配与校正、构图设计理论、图像批处理、手绘动画创意、绘画与装饰、电影海报制作、排版设计工艺、综合项目设计。  
+            </article>
+            <button class="read-more-btn"><a href="https://app.v.tencent.com/cooperation/review/1b7429ef-03c6-4276-ab5d-45f3a32aa3d4/665f767aaa9368000143512a/2TMz16tx?classId=1815484&ownerType=PERSON" style='text-decoration:none;color:#fff ;' target="_blank">课程</a></button>
+            <button class="read-more-btn"><a href="https://pan.baidu.com/s/1gnW7N8ZUznv_247EdCxN7Q?pwd=8888" style='text-decoration:none;color:#fff ;' target="_blank">素材</a></button>
+          </div>
+          <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/810638_868207.jpeg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-publish">
+                <i class="far fa-calendar"></i>2020年4月6号
+              </p>
+              <p class="comments"><i class="far fa-comments"></i>33</p>
+            </div>
+            <h2 class="act-title">AI从入门到精通基础课</h2>
+            <article>
+             AI是出版、多媒体和在线图像的工业标准矢量插画软件，无论是生产印刷出版线稿的设计者和专业插画家、生产多媒体图像的艺术家、还是互联网页或在线内容的制作者都会用到这个软件。也可以为线稿提供较高的精度和控制，能够快速创建设计工作流程。借助Expression Design，它支持许多矢量图形处理功能，可以为屏幕/网页或打印产品创建复杂的设计和图形元素，适合生产任何小型设计到大型的复杂项目。课程节奏合理，覆盖较全知识点以特色案例展开教学，帮助学员掌握顺应市场需求的商业设计技术，培养成为一名合格的设计师。  
+            </article>
+             <button class="read-more-btn"><a href="https://app.v.tencent.com/cooperation/review/1b7429ef-03c6-4276-ab5d-45f3a32aa3d4/66605c91aa93680001437a62/2mdTGVbm?classId=1816058&ownerType=PERSON" style='text-decoration:none;color:#fff ;' target="_blank">课程</a></button>
+             <button class="read-more-btn"><a href="https://pan.baidu.com/s/1Xlvv11nOHVyOUSVSTnFx0Q?pwd=8888F" style='text-decoration:none;color:#fff ;' target="_blank">素材</a></button>
+          </div>
+
+            <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/426752_457558.jpeg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-publish">
+                <i class="far fa-calendar"></i>2020年4月6号
+              </p>
+              <p class="comments"><i class="far fa-comments"></i>33</p>
+            </div>
+            <h2 class="act-title">AI从入门到精通提升课</h2>
+            <article>
+              AI是出版、多媒体和在线图像的工业标准矢量插画软件，无论是生产印刷出版线稿的设计者和专业插画家、生产多媒体图像的艺术家、还是互联网页或在线内容的制作者都会用到这个软件。也可以为线稿提供较高的精度和控制，能够快速创建设计工作流程。借助Expression Design，它支持许多矢量图形处理功能，可以为屏幕/网页或打印产品创建复杂的设计和图形元素，适合生产任何小型设计到大型的复杂项目。课程节奏合理，覆盖较全知识点以特色案例展开教学，帮助学员掌握顺应市场需求的商业设计技术，培养成为一名合格的设计师。
+            </article>
+             <button class="read-more-btn"><a href="https://app.v.tencent.com/cooperation/review/1b7429ef-03c6-4276-ab5d-45f3a32aa3d4/66608b3e92d3b100017eaf62/39trLx02?classId=1816150&ownerType=PERSON" style='text-decoration:none;color:#fff ;' target="_blank">课程</a></button>
+             <button class="read-more-btn"><a href="https://pan.baidu.com/s/1wK7scln_HClsIzJKVisGOQ?pwd=8888" style='text-decoration:none;color:#fff ;' target="_blank">素材</a></button>
+          </div>
+
+            <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/89442_123483.jpeg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-publish">
+                <i class="far fa-calendar"></i>2020年4月6号
+              </p>
+              <p class="comments"><i class="far fa-comments"></i>33</p>
+            </div>
+            <h2 class="act-title">cdr从入门到精通提升课</h2>
+            <article>
+              资深设计师授课，CDR是一款平面设计软件，全称为CorelDRAW，是由Corel公司开发的矢量图形编辑工具套件。这款软件结合了矢量图形设计和页面布局的全功能，被广泛应用于商标设计、标志制作、模型绘制、插图描画、排版及分色输出等诸多领域。最重要的是保持耐心和持续的实践，如绘制简单的图形、设计标志等。通过实践，可以加深对软件功能的理解，因为熟练掌握任何软件都需要时间和经验的积累。随着不断的练习和学习，你将能够有效地使用CorelDRAW来创建专业水准的设计作品。
+            </article>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">课程</a></button>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">素材</a></button>
+          </div>
+
+            <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/660448_790233.jpeg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-publish">
+                <i class="far fa-calendar"></i>2020年4月6号
+              </p>
+              <p class="comments"><i class="far fa-comments"></i>33</p>
+            </div>
+            <h2 class="act-title">影视后期实战课</h2>
+            <article>
+              影视后期制作是影视作品从拍摄到最终呈现给观众的重要环节。它涵盖了剪辑、调色、音效处理、特效制作、动画制作、合成等多个方面，是实现导演创意、提升作品质量的关键步骤。剪辑艺术，剪辑、调色、基础动画师、摄像机动画、骨骼绑定， 粒子特效、后期剪辑：对实拍和制作的视频素材进行剪辑处理，镜头语言、理解导演意图及其画面美感调色等 。后期合成：实拍素材配音素材，文字素材，图片素材，字幕素材，模型素材，特效素材等全部合成在一起就是合成，技术。
+            </article>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">课程</a></button>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">素材</a></button>
+          </div>
+
+           <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/333974_310225.jpeg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-publish">
+                <i class="far fa-calendar"></i>2020年4月6号
+              </p>
+              <p class="comments"><i class="far fa-comments"></i>33</p>
+            </div>
+            <h2 class="act-title">网页设计实战课实战课</h2>
+            <article>
+             网页设计是网站从构建到完美呈现给用户的关键流程。它包含了页面布局、视觉设计、交互设计、前端开发、用户体验优化等诸多方面，是展现网站独特魅力、提升用户满意度的核心环节。页面布局规划，视觉色彩搭配，交互按钮设置，前端代码编写，用户体验打磨等。其中，页面布局要合理有序，视觉设计要吸引人且符合风格，交互设计要流畅自然，前端开发要确保稳定高效，而用户体验优化更是要细致入微。这些环节紧密结合，共同铸就优秀的网页设计，让网站在互联网的海洋中绽放光彩。
+
+            </article>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">课程</a></button>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">素材</a></button>
+          </div>
+
+           <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/166188_561697.jpeg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-publish">
+                <i class="far fa-calendar"></i>2020年4月6号
+              </p>
+              <p class="comments"><i class="far fa-comments"></i>33</p>
+            </div>
+            <h2 class="act-title">电商设计实战课</h2>
+            <article>
+             电商设计是电商平台从搭建到成功吸引消费者的关键步骤。它涵盖了店铺页面设计、商品展示设计、购物流程优化、用户界面交互、视觉风格塑造等多个层面，是实现商业目标、提升消费者体验的重要举措。页面排版布局，色彩搭配运用，商品图精修，交互流畅度保障，风格独特性呈现等。电商设计需注重每一个细节，通过精心打造的页面让消费者便捷找到所需商品，享受愉悦购物过程，以独特的视觉和流畅的体验激发购买欲望，从而助力电商平台蓬勃发展。
+            </article>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">课程</a></button>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">素材</a></button>
+          </div>
+
+           <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/199293_15222.jpeg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-publish">
+                <i class="far fa-calendar"></i>2020年4月6号
+              </p>
+              <p class="comments"><i class="far fa-comments"></i>33</p>
+            </div>
+            <h2 class="act-title">影楼修图实战课 </h2>
+            <article>
+              影楼修图是照片从拍摄成品到完美艺术呈现的关键环节。它包含了色彩调整、瑕疵修复、人物美化、风格塑造、光影处理等多个方面，是升华照片品质、展现独特韵味的核心步骤。色彩的精准把控，瑕疵的巧妙去除，人物的精致修饰，风格的细腻营造，光影的合理调配等。影楼修图师运用专业技巧和艺术眼光，对照片进行精心雕琢，让每一个细节都熠熠生辉，使照片既真实又充满魅力，为顾客留下永恒的美好记忆与视觉享受。
+            </article>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">课程</a></button>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">素材</a></button>
+          </div>
+
+           <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/864627_576322.jpeg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-publish">
+                <i class="far fa-calendar"></i>2020年4月6号
+              </p>
+              <p class="comments"><i class="far fa-comments"></i>33</p>
+            </div>
+            <h2 class="act-title">广告设计实战课 </h2>
+            <article>
+             广告实战是广告从创意构思到实际效果达成的重要过程。它涵盖了市场调研、目标定位、创意策划、媒介选择、效果评估等多个环节，是实现广告价值、推动品牌发展的关键步骤。深入的市场洞察，精准的目标锁定，新颖的创意构想，合适的媒介运用，科学的效果测评等。在广告实战中，要充分整合各种资源和要素，通过精心的策划与执行，让广告能迅速抓住消费者眼球，引发情感共鸣，有效提升品牌知名度和影响力，从而达成既定的商业目标。
+            </article>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">课程</a></button>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">素材</a></button>
+          </div>
+
+           <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/661670_498010.jpeg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-publish">
+                <i class="far fa-calendar"></i>2020年4月6号
+              </p>
+              <p class="comments"><i class="far fa-comments"></i>33</p>
+            </div>
+            <h2 class="act-title">室内设计实战课</h2>
+            <article>
+             室内设计实战是空间从初始状态到理想居住或使用环境的关键历程。它包含了空间规划、风格确定、材质选择、装饰搭配、灯光布置等诸多方面，是塑造舒适空间、彰显个性品味的核心行动。合理的空间划分，独特的风格演绎，优质的材质运用，精妙的装饰组合，适宜的灯光营造等。室内设计实战需要设计师综合考量各种因素，以精湛的技艺和敏锐的审美，将空间打造得既实用又美观，让人们在其中能感受到温馨与惬意，享受高品质的生活体验。
+            </article>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">课程</a></button>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">素材</a></button>
+          </div>
+
+           <div class="activity">
+            <div class="act-image-wrapper">
+              <img src="https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_9000,w_1200,f_auto,q_auto/16721611/577115_924787.jpeg" alt="" />
+            </div>
+            <div class="meta">
+              <p class="date-publish">
+                <i class="far fa-calendar"></i>2020年4月6号
+              </p>
+              <p class="comments"><i class="far fa-comments"></i>33</p>
+            </div>
+            <h2 class="act-title">UI设计实战课</h2>
+            <article>
+             UI 设计实战是界面从概念到完美呈现的重要过程。它涵盖了用户需求分析、信息架构搭建、视觉元素设计、交互流程规划、可用性测试等多个环节，是提升用户体验、实现产品价值的关键步骤。精准的需求把握，清晰的架构构建，精美的视觉创作，流畅的交互设定，严格的可用性检验等。在 UI 设计实战中，需要设计师紧密结合用户需求与技术可行性，通过不断优化和完善，打造出简洁美观、操作便捷、富有吸引力的界面，让用户能愉快地与产品互动。
+            </article>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">课程</a></button>
+             <button class="read-more-btn"><a href="" style='text-decoration:none;color:#fff ;' target="_blank">素材</a></button>
+          </div>
+
+
+
+
+          
+          
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer-menus">
+        <div class="contact-us">
+          <p class="mene-title">认识网站</p>
+          <p></p>
+          <p>省区：广东省</p>
+          <p>市区：深圳市</p>
+          <p>区域：龙华区</p>
+          <p>街道：龙华民治</p>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">友情链接1</p>
+          <ul class="menu-items">
+            <li><a href="https://www.baidu.com/">百度一下</a></li>
+            <li><a href="https://www.google.cn/">谷歌一下</a></li>
+            <li><a href="https://app.v.tencent.com/">腾讯云创</a></li>
+            <li><a href="https://github.com/KaiGitHub3131/xddStudy/edit/master/index.html">网站仓库</a></li>
+          </ul>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">友情链接2</p>
+          <ul class="menu-items">
+            <li><a href="https://www.youtube.com/">youtobe</a></li>
+            <li><a href="https://llgjc.com/">流量机场</a></li>
+            <li><a href="https://web.telegram.org/k/">telegram</a></li>
+            <li><a href="https://vlink.cc/xdd666">情感导航</a></li>
+          </ul>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">友情链接3</p>
+          <ul class="menu-items">
+            <li><a href="https://huke88.com/">虎课网</a></li>
+            <li><a href="https://www.zsxq.com/">知识星球</a></li>
+            <li><a href="https://www.chajianxw.com/">扩展插件</a></li>
+             <li><a href="https://kaigithub3131.github.io/xdd666/">叮当导航</a></li>
+          </ul>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">友情链接4</p>
+          <ul class="menu-items">
+            <li><a href="https://www.doubao.com/chat/">AI豆包</a></li>
+            <li><a href="https://airtable.com/">airtable</a></li>
+            <li><a href="https://pan.baidu.com/">百度网盘</a></li>
+             <li><a href="https://kaigithub3131.github.io/xddvideo/">叮当视频</a></li>
+          </ul>
+        </div>
+        <p class="icp-info">
+          <a href=""></a>
+        </p>
+        <p class="rights">©2024 本站内容源自互联网，仅用于学习！</p>
+        <div class="scrollToTop">
+          <a href="#" class="fas fa-chevron-up"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./libs/anime/anime.min.js"></script>
+    <script src="./libs/glide/glide.min.js"></script>
+    <script src="./libs/isotope/isotope.pkgd.min.js"></script>
+    <script src="./libs/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
